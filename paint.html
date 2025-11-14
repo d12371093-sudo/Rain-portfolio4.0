@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<title>★繪圖作品★</title>
+<BODY style="background-color:rgb(23, 24, 24);;">
+<br>
+<h1 style="font-size: 40px;text-align: center;color: rgb(239, 175, 14);font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">我的繪圖作品</h1>
+<pre style="font-size: 17px;color: bisque;text-align: center; text-align: center">
+(平常沒在整理檔案，因此從各個時期各種類別中隨機挑了幾個來放)
+
+</pre>
+<style>
+.nav-top {
+    position: fixed;      /* 固定位置 */
+    top: 15px;            /* 距離上方 20px，可依需要調整 */
+    right: 20px;          /* 距離右邊 20px，可依需要調整 */
+    display: flex;
+    gap: 7.5px;            /* 按鈕間距 */
+    z-index: 999;         /* 在最上層 */
+}
+
+.nav-top a {
+    padding: 7.5px 9px;
+    background: rgba(128, 89, 185, 0.3);  /* 半透明背景 */
+    color: rgb(247, 231, 255);
+    text-decoration: none;
+    border-radius: 10px;
+    backdrop-filter: blur(6px);         /* 玻璃化模糊效果（選擇性）*/
+    font-size: 14px;
+    transition: 0.25s;
+}
+
+.nav-top a:hover {
+    background: rgba(255,255,255,0.4);
+    transform: scale(1.05);             /* 小放大效果 */}
+
+</style>
+
+<div class="nav-top">
+<a href="index_home.html" >★首頁★</a>
+<a href="aboutme.html">★關於我★</a>
+<a href="interests.html" >★相關興趣★</a>
+<a href="animation.html" >★動畫作品★</a>
+<a href="i17lol.html">★iPhone 17★</a>
+</div>
+
+<div><!--這個區塊是將圖片置中用-->
+<p style="text-align: center"><!--第一行--><!--這個style是讓滑鼠移上去時有放大動畫-->
+<style>
+    img {margin: 0.5px;transition: transform 0.5s;cursor: pointer;}
+    img:hover {transform: scale(1.1);}
+</style>
+<img src="png/sheep face.jpg" style="width:29%"><img src="png/twins.png" style="width:50%"><img src="png/shh.png" style="width:42.5%">
+<img src="png/winds.jpg" style="width:50%"><img src="png/draw.png" style="width:47%"><img src="png/view.jpg"style="width:50%">
